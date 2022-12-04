@@ -1,0 +1,1 @@
+# fridosamt.github.io
