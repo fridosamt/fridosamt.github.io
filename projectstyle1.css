@@ -1,0 +1,233 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url("meerschwein.png");
+    background-size: 20%;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+
+}
+
+header {
+  text-align: right;
+  position: relative;
+  top: 5px;
+  margin-bottom: 20px;
+  z-index: 0.9;
+
+}
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+
+}
+
+header h1 a:hover {
+    text-shadow: 2px 2px 1px #cdcdcd;
+}
+
+/*header.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  padding: 15px;
+  color: white;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+  text-align: center;
+  border-radius: 25px;
+}*/
+
+.Intro {
+ text-align: right;
+ background-color: rgb(255,255,255,0.8);
+ border: 2px solid #ffeb3b;
+ margin: 50px;
+ border-radius: 25px;
+ padding-right: 20px;
+ line-height: 125%;
+/* display: inline-block;*/
+}
+
+.Intro:hover {
+  background-color: rgb(255,255,255,0.9);
+  text-shadow: 2px 2px 3px #ffeb3b;
+}
+
+h3 {
+  text-shadow: 3px 3px 3px white;
+
+  }
+
+.appear {
+  width: 200px;
+  height: auto;
+  position: relative;
+  right: 10px;
+}
+
+.stickybutton {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid #ffeb3b;
+  z-index: 1.0;
+}
+
+.stickybutton:hover {
+  background-color:  #ffff99;
+  margin: 4px 2px;
+  border-radius: 25px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#navi {
+
+ text-align: center;
+ position: -webkit-sticky;
+ position: sticky;
+   top: 0px;
+
+}
+
+
+/* was nerviges für rechts unten */
+.fixedbottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  height: 50px;
+
+}
+
+.fixedbottom:hover {
+  height: 200px;
+    transition-duration: 0.3s;
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+animation: shake 0.5s;
+
+/* When the animation is finished, start again */
+animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+      padding: 3px;
+      text-align: center;
+      margin-top: 50px;
+}
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: underline;
+}
+a:hover {
+    text-shadow: 2px 2px 1px #cdcdcd;
+    }
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: rgba(255, 255, 153,0.6);
+  color: white;
+
+}
+
+.fa-ice-cream {
+  background: rgba(255, 255, 153,0.6);
+  color: white;
+
+
+}
+
+.fa-check-square-o{
+  background: rgba(255, 255, 153,0.6);
+  color: white;
+
+
+}
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+ width: 100%; /* Full width */
+padding: 12px; /* Some padding */
+border: 1px solid #ccc; /* Gray border */
+ border-radius: 4px; /* Rounded borders */
+ box-sizing: border-box; /* Make sure that padding and width stays in place */
+ margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid #ffeb3b;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:  #ffff99;
+  margin: 4px 2px;
+  border-radius: 25px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+} */
