@@ -16,15 +16,7 @@ header {
 
 }
 
-header h1 a {
-  text-decoration: none;
-  color: black;
 
-}
-
-header h1 a:hover {
-    text-shadow: 2px 2px 1px #cdcdcd;
-}
 
 /*header.sticky {
   position: -webkit-sticky;
@@ -155,6 +147,7 @@ animation-iteration-count: infinite;
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -164,6 +157,7 @@ a:visited {
 
 a:active {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -192,6 +186,7 @@ a:hover {
 
 
 }
+
 
 
  /* Style inputs with type="text", select elements and textareas */
@@ -234,3 +229,13 @@ input[type=submit]:hover {
  background-color: #f2f2f2;
  padding: 20px;
 } */
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+
+}
+
+header h1 a:hover {
+    text-shadow: 2px 2px 1px #cdcdcd;
+}
